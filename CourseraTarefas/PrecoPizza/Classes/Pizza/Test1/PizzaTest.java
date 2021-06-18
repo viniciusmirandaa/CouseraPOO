@@ -1,5 +1,6 @@
 package Coursera.CourseraTarefas.PrecoPizza.Classes.Pizza.Test1;
 
+import CourseraTarefas.PrecoPizza.Classes.Pizza.Pizza;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +15,7 @@ class PizzaTest {
 
     @Test
     void adicionaIngrediente() {
-        Pizza p = new Pizza();
+        CourseraTarefas.PrecoPizza.Classes.Pizza.Pizza p = new Pizza();
         p.adicionaIngrediente("Ovo");
         p.adicionaIngrediente("Ervilha");
         p.adicionaIngrediente("Presunto");
