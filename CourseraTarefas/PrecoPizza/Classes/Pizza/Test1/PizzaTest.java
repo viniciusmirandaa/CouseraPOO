@@ -1,4 +1,4 @@
-package CourseraTarefas.PrecoPizza.Classes.Pizza;
+package Coursera.CourseraTarefas.PrecoPizza.Classes.Pizza.Test1;
 
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
