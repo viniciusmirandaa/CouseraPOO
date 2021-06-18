@@ -7,10 +7,6 @@ public class Respeitoso implements FormatadorNome{
         this.sexo = sexo;
     }
 
-    public char getSexo() {
-        return sexo;
-    }
-
     public String formatarNome(String nome, String sobreNome) {
         if(this.sexo != 'M' && this.sexo != 'F' && this.sexo != 'm' && this.sexo != 'f'){
             return null;

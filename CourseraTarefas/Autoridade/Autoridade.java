@@ -11,7 +11,8 @@ public class Autoridade{
         this.formatadorNome = formatadorNome;
     }
 
-    public void getTratamento(){
-        formatadorNome.formatarNome(nome, sobreNome);
+    public String getTratamento(){
+        String resultado = formatadorNome.formatarNome(nome, sobreNome);
+        return resultado;
     }
 }
